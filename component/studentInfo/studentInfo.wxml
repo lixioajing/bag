@@ -1,0 +1,44 @@
+<view class="parent">
+  <image class='top_head' src='{{head}}'></image>
+  <view class='top_text' mode="aspecFill" bindtap="headimage">点击更换头像</view>
+  <open-data type="userNickName" lang="zh_CN"></open-data>
+</view>
+
+<view class="page">
+  <view class="page__bd">
+    <view class="weui-cells weui-cells_after-title">
+
+      <view wx:for="{{user}}" wx:key="_id">
+        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+          <view class="weui-cell__bd">
+            <view class="teacher">
+              <label>姓名：{{item.userName}}</label>
+            </view>
+          </view>
+        </navigator>
+        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+          <view class="weui-cell__bd">
+            <view class="teacher">
+              <label>学号：{{item.userID}}</label>
+            </view>
+          </view>
+        </navigator>
+        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+          <view class="weui-cell__bd">
+            <view class="teacher">
+              <label>电话：{{item.userPhoneNumber}}</label>
+            </view>
+          </view>
+        </navigator>
+      </view>
+
+    </view>
+  </view>
+</view>
+
+
+<view>
+  <text>\n</text>
+  <button catchtap='handleClickUpdate' class="weui-btn" type="primary">修改信息</button>
+  <button catchtap='handleClickQuit' class="weui-btn" type="warn">退出登录</button>
+</view>

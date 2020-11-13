@@ -1,0 +1,29 @@
+<!--pages/student/student.wxml-->
+<view class="page">
+  <view class="page__bd">
+    <view class="weui-cells__title">班级列表</view>
+    <view class="weui-cells weui-cells_after-title">
+
+      <view class="weui-cell">
+        <view class="weui-cell__hd">
+          <image src="/images/book2.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;">
+          </image>
+        </view>
+        <view catchtap='handleClickClass1'>
+          <view class="weui-cell__bd">{{class1}}</view>
+        </view>
+      </view>
+
+      <view class="weui-cell">
+        <view class="weui-cell__hd">
+          <image src="/images/book2.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;">
+          </image>
+        </view>
+        <view catchtap='handleClickClass2'>
+          <view class="weui-cell__bd">{{class2}}</view>
+        </view>
+      </view>
+
+    </view>
+  </view>
+</view>

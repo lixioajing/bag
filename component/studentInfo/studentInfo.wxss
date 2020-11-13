@@ -1,0 +1,25 @@
+.parent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top_head {
+  margin-top: 50rpx;
+  width: 200rpx; 
+  height: 200rpx; 
+  align-items: center;
+  border-radius: 50%; 
+  border: 1px solid rgba(51, 51, 51, 1);
+  }
+.top_text { 
+ margin-top: 10rpx;
+ margin-bottom: 20rpx;
+ color: rgb(151, 140, 141);  
+ font-size: 33rpx; 
+ }
+
+ .button{
+   margin: 20rpx;
+ }
