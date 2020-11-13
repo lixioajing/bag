@@ -1,0 +1,51 @@
+/* pages/choose/choose.wxss */
+page {
+  height: 100%;
+  background: #ffffff;
+}
+
+.chooseRole {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.roleText {
+  font-size: 50rpx;
+  text-align: center;
+  margin-top: 200rpx;
+  font-weight: 600;
+  background: #ffffff;
+}
+
+.teacher {
+  width: 650rpx;
+  height: 200rpx;
+  font-size: 40rpx;
+  border: 1rpx solid #c6d8d3;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  font-weight: 550;
+  text-align: center;
+  line-height: 200rpx;
+  margin-top: 100rpx;
+  background: #ffffff;
+}
+
+.student {
+  width: 650rpx;
+  height: 200rpx;
+  font-size: 40rpx;
+  border: 1rpx solid #c6d8d3;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  font-weight: 550;
+  text-align: center;
+  line-height: 200rpx;
+  margin-top: 70rpx;
+  background: #ffffff;
+}

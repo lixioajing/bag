@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/load/load",
+    "pages/newTabbar/newTabbar",
+    "pages/teacher/teacher",
+    "pages/class2/class2",
+    "pages/succeedUpdateStu/succeedUpdateStu",
+    "pages/teacherInfo/teacherInfo",
+    "pages/succeedAdd/succeedAdd",
+    "pages/succeedCreat/succeedCreat",
+    "pages/succeedUpdateTea/succeedUpdateTea",
+    "pages/Class1_score/Class1_score",
+    "pages/Class2_score/Class2_score",
+    "pages/updateStudentInfo/updateStudentInfo",
+    "pages/updateTeacherInfo/updateTeacherInfo",
+    "pages/creatClass/creatClass",
+    "pages/choose/choose",
+    "pages/fillTeacherInfo/fillTeacherInfo",
+    "pages/fillStudentInfo/fillStudentInfo",
+    "pages/class1/class1",
+    "pages/student_score/student_score"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#489B81",
+    "navigationBarTitleText": "计分小助手",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#A5A5A5",
+    "selectedColor": "#FFDC1D",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/class_select.png",
+        "iconPath": "images/class.png",
+        "pagePath": "pages/teacher/teacher",
+        "text": "班级列表"
+      },
+      {
+        "selectedIconPath": "images/fun_select.png",
+        "iconPath": "images/fun.png",
+        "pagePath": "pages/creatClass/creatClass",
+        "text": "创建班级"
+      },
+      {
+        "selectedIconPath": "images/info_select.png",
+        "iconPath": "images/info.png",
+        "pagePath": "pages/teacherInfo/teacherInfo",
+        "text": "我的信息"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

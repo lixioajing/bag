@@ -1,0 +1,13 @@
+<!--pages/choose/choose.wxml-->
+
+<view class="chooseRole">
+  <view class="roleText">
+    <text>选择你的身份</text>
+  </view>
+  <view bindtap='judgeTeacher' class="teacher">
+    <text>我是老师</text>
+  </view>
+  <view bindtap='judgeStudent' class="student">
+    <text>我是学生</text>
+  </view>
+</view>
