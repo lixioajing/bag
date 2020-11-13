@@ -1,0 +1,4 @@
+/* pages/creatClass/creatClass.wxss */
+.text {
+  margin-top: 40rpx;
+}

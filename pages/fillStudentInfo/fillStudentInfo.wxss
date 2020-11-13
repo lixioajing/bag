@@ -1,0 +1,4 @@
+/* pages/fillinInfo/fillinInfo.wxss */
+.text {
+  margin-top: 40rpx;
+}

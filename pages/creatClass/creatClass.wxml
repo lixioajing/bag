@@ -1,0 +1,29 @@
+<!--pages/creatClass/creatClass.wxml-->
+<view class="page">
+   <form bindsubmit='formSubmit'>
+      <view class="page__bd">
+         <view class="weui-cells__title">请输入信息</view>
+         <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell">
+               <view class="weui-cell__bd">班级ID码：</view>
+               <input type="text" name="class_ID" placeholder=" 请输入班级码" />
+            </view>
+            <view class="weui-cell">
+               <view class="weui-cell__bd">班级名称：</view>
+               <input type="text" name="class_name" placeholder=" 请输入班级名称" />
+            </view>
+            <view class="weui-cell">
+               <view class="weui-cell__bd">老师姓名：</view>
+               <input type="text" name="teacher_name" placeholder=" 请输入老师姓名" />
+            </view>
+            <view class="weui-cell">
+               <view class="weui-cell__bd">联系电话：</view>
+               <input type="text" name="teacher_PhoneNumber" placeholder=" 请输入联系电话" />
+            </view>
+         </view>
+      </view>
+      <view class="text">
+         <button class="weui-btn" type="primary" form-type="submit">创建班级</button>
+      </view>
+   </form>
+</view>

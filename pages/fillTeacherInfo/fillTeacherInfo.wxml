@@ -1,0 +1,26 @@
+<!--pages/fillTeacherInfo/fillTeacherInfo.wxml-->
+
+<view class="page">
+   <form bindsubmit='formSubmit'>
+      <view class="page__bd">
+         <view class="weui-cells__title">请输入信息</view>
+         <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell">
+               <view class="weui-cell__bd">名字</view>
+               <input type="text" name="userName" placeholder="请输入姓名" />
+            </view>
+            <view class="weui-cell">
+               <view class="weui-cell__bd">学号</view>
+               <input type="text" name="userID" placeholder="请输入学号" />
+            </view>
+            <view class="weui-cell">
+               <view class="weui-cell__bd">电话</view>
+               <input type="text" name="userPhoneNumber" placeholder="请输入电话" />
+            </view>
+         </view>
+      </view>
+      <view class="text">
+         <button  type="primary" form-type="submit">进入小助手</button>
+      </view>
+   </form>
+</view>

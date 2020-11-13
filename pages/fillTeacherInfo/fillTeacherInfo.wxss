@@ -1,0 +1,4 @@
+/* pages/fillTeacherInfo/fillTeacherInfo.wxss */
+.text {
+  margin-top: 40rpx;
+}
