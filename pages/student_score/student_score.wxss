@@ -1,0 +1,4 @@
+/* pages/student_score/student_score.wxss */
+.text{
+  margin-top: 40rpx;
+}
