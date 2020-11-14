@@ -1,0 +1,49 @@
+<!--pages/student_score1/student_score1.wxml-->
+<view class="page">
+   <form bindsubmit='formSubmit'>
+      <view class="page__bd">
+         <view class="weui-cell">
+            <view class="weui-cell__bd">
+               课程名字：<label>{{score.subject}}</label>
+            </view>
+         </view>
+         <view class="weui-cell">
+            <view class="weui-cell__bd">
+               学生学号：<label>{{score.student_number}}</label>
+            </view>
+         </view>
+         <view class="weui-cell">
+            <view class="weui-cell__bd">
+               平时成绩：<label>{{score.normal_score}}</label>
+            </view>
+         </view>
+         <view class="weui-cell">
+            <view class="weui-cell__bd">
+               期末成绩：<label>{{score.final_score}}</label>
+            </view>
+         </view>
+         <view class="weui-cell">
+            <view class="weui-cell__bd">总分：{{score.total_score}}</view>
+         </view>
+         <view class="weui-cells__title">请输入成绩信息</view>
+         <view class="weui-cells weui-cells_after-title">
+            <view class="weui-cell">
+               <view class="weui-cell__bd">课程名字</view>
+               <input type="text" name="subject" placeholder="请输入课程名字" />
+            </view>
+            <view class="weui-cell">
+               <view class="weui-cell__bd">平时成绩</view>
+               <input type="text" name="normal_score" placeholder="请输入平时成绩" />
+            </view>
+            <view class="weui-cell">
+               <view class="weui-cell__bd">期末成绩</view>
+               <input type="text" name="final_score" placeholder="请输入期末成绩" />
+            </view>
+
+         </view>
+      </view>
+      <view class="text">
+         <button type="primary" form-type="submit">确定</button>
+      </view>
+   </form>
+</view>
