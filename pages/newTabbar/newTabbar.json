@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "component_student": "/pages/component/student/student",
+    "component_enterClass": "/pages/component/enterClass/enterClass",
+    "component_studentInfo": "/pages/component/studentInfo/studentInfo"
+  }
+}
