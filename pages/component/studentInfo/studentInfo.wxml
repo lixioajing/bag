@@ -9,27 +9,27 @@
     <view class="weui-cells weui-cells_after-title">
 
       <view wx:for="{{user}}" wx:key="_id">
-        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
           <view class="weui-cell__bd">
             <view class="teacher">
               <label>姓名：{{item.userName}}</label>
             </view>
           </view>
-        </navigator>
-        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        </view>
+        <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
           <view class="weui-cell__bd">
             <view class="teacher">
               <label>学号：{{item.userID}}</label>
             </view>
           </view>
-        </navigator>
-        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        </view>
+        <view class="weui-cell weui-cell_access" hover-class="weui-cell_active">
           <view class="weui-cell__bd">
             <view class="teacher">
               <label>电话：{{item.userPhoneNumber}}</label>
             </view>
           </view>
-        </navigator>
+        </view>
       </view>
 
     </view>
