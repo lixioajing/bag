@@ -1,0 +1,35 @@
+<!--pages/Class2_score/Class2_score.wxml-->
+<view class="page">
+      <view class="page__bd">
+         <view class="weui-cell">
+            <view class="weui-cell__bd">
+               学生学号：<label>{{user[0].student_number}}</label>
+            </view>
+         </view>
+         <view class="weui-cell">
+            <view class="weui-cell__bd">
+               学生姓名：<label>{{user[0].student_name}}</label>
+            </view>
+         </view>
+         <view class="weui-cell">
+            <view class="weui-cell__bd">
+               科目：<label>{{user[0].subject}}</label>
+            </view>
+         </view>
+         <view class="weui-cell">
+            <view class="weui-cell__bd">
+            平时成绩：<label>{{user[0].normal_score}}</label>
+            </view>
+         </view>
+         <view class="weui-cell">
+            <view class="weui-cell__bd">
+            期末成绩：<label>{{user[0].final_score}}</label>
+            </view>
+         </view>
+         <view class="weui-cell">
+            <view class="weui-cell__bd">
+            总分：<label>{{user[0].total_score}}</label>
+            </view>
+         </view>
+      </view>
+</view>
